@@ -25,6 +25,8 @@ def start_game():
             print("Invalid User Input")
             print("Try Again..")
             start_game()
+            break
+
         print("---------------------------------------------------------------")
 
         print("Now its Computers Turn..")
